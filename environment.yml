@@ -2,7 +2,7 @@ name: p09-lcae
 channels:
   - conda-forge
 dependencies:
-  - python=3.10
+  - python=3.12
   - pip
   - jupyter
   - ipykernel
@@ -12,4 +12,4 @@ dependencies:
   - psutil
   - pip:
       - sionna==2.0.1
-      - torch
+      - torch>=2.9
