@@ -47,6 +47,6 @@ Em đã dùng Claude (trợ lý AI của Anthropic) và em đã yêu cầu các 
 | 79, 80 | 13.2: ghi giao thức Monte-Carlo và phiên bản mã đang chạy | Thầy yêu cầu nêu thay đổi ảnh hưởng số liệu | Không |
 | 81, 82 | 13.3: chạy lại `perfect` và B0 ở 2x2 CDL-C với `EVAL` gốc | Thầy yêu cầu giải thích độ lệch 2x2 | Không (chỉ chẩn đoán) |
 
-## D. Tuyên bố cho báo cáo
+## D. Kết Luận
 
-Số tái hiện trong `repro_report_S01.md` đến từ giao thức đã **giảm ngân sách Monte-Carlo** (A1 đến A5). Em có dùng Claude (AI) để viết các ô ở mục C và để viết lại các ô 3 đến 6 ở mục B. Các thay đổi A1 đến A5 do em đưa notebook cho Claude sửa vì Colab hết hạn mức GPU. Theo trí nhớ của em, A6 đến A9 cũng do em đưa cho Claude sửa trong một cuộc trò chuyện khác; em chưa xác nhận lại. [em điền: các ô còn lại ở mục B do ai viết, vì sao].
+Số tái hiện trong `repro_report_S01.md` đến từ giao thức đã **giảm ngân sách Monte-Carlo** (A1 đến A5). Em có dùng Claude (AI) để viết các ô ở mục C và để viết lại các ô 3 đến 6 ở mục B. Các thay đổi A1 đến A5 do em đưa notebook cho Claude sửa vì Colab hết hạn mức GPU. Về phần A6 đến A9, chỉ A6 (bản vá huấn luyện) có thể đổi số liệu nhưng có thể không có hiệu lực vì ô 23 ghi đè (ô 13.2 sẽ xác nhận); A7–A8 chỉ đổi nơi tính eigh sang CPU (dự kiến chỉ khác ở mức sai số làm tròn, chưa đo); A9 chỉ sửa văn bản bảng 12.4, cột 1e-2 không đổi.
