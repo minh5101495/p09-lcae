@@ -49,4 +49,4 @@ Em đã dùng Claude (trợ lý AI của Anthropic) và em đã yêu cầu các 
 
 ## D. Tuyên bố cho báo cáo
 
-Số tái hiện trong `repro_report_S01.md` đến từ giao thức đã **giảm ngân sách Monte-Carlo** (A1 đến A5). Em có dùng Claude (AI) để viết các ô ở mục C và để viết lại các ô 3 đến 6 ở mục B. Các thay đổi A1 đến A5 do em đưa notebook cho Claude sửa vì Colab hết hạn mức GPU. [em điền: A6 đến A9 và các ô còn lại ở mục B do ai viết, vì sao].
+Số tái hiện trong `repro_report_S01.md` đến từ giao thức đã **giảm ngân sách Monte-Carlo** (A1 đến A5). Em có dùng Claude (AI) để viết các ô ở mục C và để viết lại các ô 3 đến 6 ở mục B. Các thay đổi A1 đến A5 do em đưa notebook cho Claude sửa vì Colab hết hạn mức GPU.
